@@ -17,7 +17,7 @@ if (!is_null($events['events'])) {
 			// Build message to reply back
 			$messages = [
 				'type' => 'text',
-				'text' => "กรุณาพิมพ์ตามที่กำหนด ."\n".[อุณหภูมิ]เพื่อดูอุณหภูมิ"
+				'text' => "กรุณาพิมพ์ตามที่กำหนด"
 					// "text"
 			];
 			if($text == "อุณหภูมิ"){
