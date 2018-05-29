@@ -17,7 +17,7 @@ if (!is_null($events['events'])) {
 			// Build message to reply back
 			$messages = [
 				'type' => 'text',
-				'text' => $text
+				'text' => "กรุณาพิมพ์ตามที่กำหนด"
 					// "text"
 			];
 			if($text == "HI"){
