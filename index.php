@@ -17,10 +17,10 @@ if (!is_null($events['events'])) {
 			// Build message to reply back
 			$messages = [
 				'type' => 'text',
-				'text' => "กรุณาพิมพ์ตามที่กำหนด"."\n"."[1]เพื่อดูสถานที่ตั้ง"."\n"."[2]เพื่อบอกอุณหภูมิ"
+				'text' => "กรุณาพิมพ์ตามที่กำหนด"."\n"."[1]เพื่อดูสถานที่ตั้ง"."\n"."[2]เพื่อดูรูปสถานที่"."\n"."[3]เพื่อบอกอุณหภูมิ"
 					// "text"
 			];
-			if($text == "2"){
+			if($text == "3"){
 
 				$messages = [
 				'type' => 'text',
@@ -41,7 +41,7 @@ if (!is_null($events['events'])) {
 				'text' => "http://sand.96.lt/images/q.jpg"
 			];
 			}
-			if($text == "3"){
+			if($text == "2"){
 
 				$messages = [
 				'type' => 'image',
