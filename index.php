@@ -17,7 +17,7 @@ if (!is_null($events['events'])) {
 			// Build message to reply back
 			$messages = [
 				'type' => 'text',
-				'text' => "กรุณาพิมพ์ตามที่กำหนด"."\n"."[อุณหภูมิ]เพื่อบอกอุณหภูมิ"
+				'text' => "กรุณาพิมพ์ตามที่กำหนด"."[สถานที่]เพื่อสถานที่ตั้ง"."\n"."[อุณหภูมิ]เพื่อบอกอุณหภูมิ"
 					// "text"
 			];
 			if($text == "อุณหภูมิ"){
@@ -25,6 +25,13 @@ if (!is_null($events['events'])) {
 				$messages = [
 				'type' => 'text',
 				'text' => "25.2 องศาเซลเซียส"
+			];
+			}
+			if($text == "สถานที่"){
+
+				$messages = [
+				'type' => 'text',
+				'text' => "โรงเรียนวิเชียรมาตุ"
 			];
 			}
 			if($text == "รูป"){
