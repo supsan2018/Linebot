@@ -17,14 +17,14 @@ if (!is_null($events['events'])) {
 			// Build message to reply back
 			$messages = [
 				'type' => 'text',
-				'text' => "กรุณาพิมพ์ตามที่กำหนด"
+				'text' => "กรุณาพิมพ์ตามที่กำหนด ."\n".[อุณหภูมิ]เพื่อดูอุณหภูมิ"
 					// "text"
 			];
-			if($text == "HI"){
+			if($text == "อุณหภูมิ"){
 
 				$messages = [
 				'type' => 'text',
-				'text' => "hello"
+				'text' => "25.2 องศาเซลเซียส"
 			];
 			}
 			if($text == "รูป"){
