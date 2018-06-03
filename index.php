@@ -20,41 +20,22 @@ if (!is_null($events['events'])) {
 			// Build message to reply back
 			$messages = [
 				'type' => 'text',
-				'text' => "กรุณาพิมพ์ตามที่กำหนด"."\n"."[0]เพื่อดูแผนที่"."\n"."[1]เพื่อดูสถานที่ตั้ง"."\n"."[2]เพื่อดูรูปสถานที่"."\n"."[3]เพื่อบอกอุณหภูมิ"
+				'text' => "กรุณาพิมพ์ตามที่กำหนด"."\n"."[1]เพื่อดูสถานที่ตั้ง"."\n"."[2]เพื่อดูรูปสถานที่"."\n"."[3]เพื่อบอกอุณหภูมิ"
 					// "text"
 			];
-			}
-				/*if($text == "0"){
-
+			if($text == "3"){
 				$messages = [
-				'type' => 'image',
-				'originalContentUrl' => "https://www.picz.in.th/images/2018/06/03/zeYd6u.jpg",
-    				'previewImageUrl' => "https://www.picz.in.th/images/2018/06/03/zeYd6u.jpg"
+				'type' => 'text',
+				'text' => "25.2 องศาเซลเซียส"
 			];
 			}
-		if($text == "1"){
-
+			if($text == "1"){
 				$messages = [
 				'type' => 'text',
 				'text' => "โรงเรียนวิเชียรมาตุ"
 			];
 			}
-			if($text == "2"){
-
-				$messages = [
-				'type' => 'image',
-				'originalContentUrl' => "https://scontent.furt1-1.fna.fbcdn.net/v/t31.0-8/22829081_903091683188291_6843543102483932368_o.jpg?_nc_cat=0&_nc_eui2=AeHb1OKUTePH4pUIjxrUt-s_xAsTDvklvH-M4KR9TnMWDzTZwxG__lUrCXQgFvOQ3r6wvTL5OdA-AGIuaKlkd7oCsVkMthSUkxC1VTjzDMwnMg&oh=7a1dbeb18ff5e1bb033b2cb78973599f&oe=5B8F562D",
-    				'previewImageUrl' => "https://scontent.furt1-1.fna.fbcdn.net/v/t31.0-8/22829081_903091683188291_6843543102483932368_o.jpg?_nc_cat=0&_nc_eui2=AeHb1OKUTePH4pUIjxrUt-s_xAsTDvklvH-M4KR9TnMWDzTZwxG__lUrCXQgFvOQ3r6wvTL5OdA-AGIuaKlkd7oCsVkMthSUkxC1VTjzDMwnMg&oh=7a1dbeb18ff5e1bb033b2cb78973599f&oe=5B8F562D"
-			];
-			if($text == "3"){
-
-				$messages = [
-				'type' => 'text',
-				'text' => "25.2 องศาเซลเซียส"
-			];
-			}*/
 			if($text == "รูป"){
-
 				$messages = [
 				'type' => 'text',
 				'text' => "http://sand.96.lt/images/q.jpg"
@@ -63,29 +44,28 @@ if (!is_null($events['events'])) {
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "อากาศ"){
 				
 				$messages = ['type' => 'text', 'text' => "สถานที่ : " . "``" .  "โรงเรียนวิเชียรมาตุ" . "อุณหภูมิ C :" . $TEM . "\n" . "ความชื้น :" . $HUM . " %" . "\n" . "[help] เพื่อดูเมนู"];
-			
+			}
+			if($text == "2"){
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://scontent.furt1-1.fna.fbcdn.net/v/t31.0-8/22829081_903091683188291_6843543102483932368_o.jpg?_nc_cat=0&_nc_eui2=AeHb1OKUTePH4pUIjxrUt-s_xAsTDvklvH-M4KR9TnMWDzTZwxG__lUrCXQgFvOQ3r6wvTL5OdA-AGIuaKlkd7oCsVkMthSUkxC1VTjzDMwnMg&oh=7a1dbeb18ff5e1bb033b2cb78973599f&oe=5B8F562D",
+    				'previewImageUrl' => "https://scontent.furt1-1.fna.fbcdn.net/v/t31.0-8/22829081_903091683188291_6843543102483932368_o.jpg?_nc_cat=0&_nc_eui2=AeHb1OKUTePH4pUIjxrUt-s_xAsTDvklvH-M4KR9TnMWDzTZwxG__lUrCXQgFvOQ3r6wvTL5OdA-AGIuaKlkd7oCsVkMthSUkxC1VTjzDMwnMg&oh=7a1dbeb18ff5e1bb033b2cb78973599f&oe=5B8F562D"
+			];
 			}
 			if($text == "ภาพ"){
-
 				$messages = [
 				'type' => 'image',
 				'originalContentUrl' => "https://paaying.files.wordpress.com/2008/06/e0b881e0b8a5e0b989e0b8a7e0b8a2.jpg",
     				'previewImageUrl' => "https://paaying.files.wordpress.com/2008/06/e0b881e0b8a5e0b989e0b8a7e0b8a2.jpg"
 			];
 			}
-
 			/*if($text == "image"){
-
 				$messages = [
 				$img_url = "http://sand.96.lt/images/q.jpg";
 				$outputText = new LINE\LINEBot\MessageBuilder\ImageMessageBuilder($img_url, $img_url);
 				$response = $bot->replyMessage($event->getReplyToken(), $outputText);
-
 			];
 			}*/
-
-
-
 			// Make a POST Request to Messaging API to reply to sender
 			$url = 'https://api.line.me/v2/bot/message/reply';
 			$data = [
