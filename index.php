@@ -32,7 +32,7 @@ if (!is_null($events['events'])) {
     				'previewImageUrl' => "https://www.picz.in.th/images/2018/06/03/zeYd6u.jpg"
 			];
 			}
-			if($text == "1"){
+			/*if($text == "1"){
 
 				$messages = [
 				'type' => 'text',
@@ -52,7 +52,7 @@ if (!is_null($events['events'])) {
 				'type' => 'text',
 				'text' => "25.2 องศาเซลเซียส"
 			];
-			}
+			}*/
 			if($text == "รูป"){
 
 				$messages = [
