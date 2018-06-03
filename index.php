@@ -28,8 +28,8 @@ if (!is_null($events['events'])) {
 
 				$messages = [
 				'type' => 'image',
-				'originalContentUrl' => "https://drive.google.com/open?id=1l5-zYGlPL6-_dH0LK9O3sIa1veP3KX0e",
-    				'previewImageUrl' => "https://drive.google.com/open?id=1l5-zYGlPL6-_dH0LK9O3sIa1veP3KX0e"
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/06/03/zeYd6u.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/06/03/zeYd6u.jpg"
 			];
 			}
 			if($text == "1"){
