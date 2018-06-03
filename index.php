@@ -20,14 +20,16 @@ if (!is_null($events['events'])) {
 			// Build message to reply back
 			$messages = [
 				'type' => 'text',
-				'text' => "กรุณาพิมพ์ตามที่กำหนด"."\n"."[1]เพื่อดูสถานที่ตั้ง"."\n"."[2]เพื่อดูรูปสถานที่"."\n"."[3]เพื่อบอกอุณหภูมิ"
+				'text' => "กรุณาพิมพ์ตามที่กำหนด"."\n"."[0]เพื่อดูแผนที่"."\n"."[1]เพื่อดูสถานที่ตั้ง"."\n"."[2]เพื่อดูรูปสถานที่"."\n"."[3]เพื่อบอกอุณหภูมิ"
 					// "text"
 			];
-			if($text == "3"){
+			}
+			if($text == "0"){
 
 				$messages = [
-				'type' => 'text',
-				'text' => "25.2 องศาเซลเซียส"
+				'type' => 'image',
+				'originalContentUrl' => "https://drive.google.com/open?id=1l5-zYGlPL6-_dH0LK9O3sIa1veP3KX0e",
+    				'previewImageUrl' => "https://drive.google.com/open?id=1l5-zYGlPL6-_dH0LK9O3sIa1veP3KX0e"
 			];
 			}
 			if($text == "1"){
@@ -35,6 +37,20 @@ if (!is_null($events['events'])) {
 				$messages = [
 				'type' => 'text',
 				'text' => "โรงเรียนวิเชียรมาตุ"
+			];
+			}
+			if($text == "2"){
+
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://scontent.furt1-1.fna.fbcdn.net/v/t31.0-8/22829081_903091683188291_6843543102483932368_o.jpg?_nc_cat=0&_nc_eui2=AeHb1OKUTePH4pUIjxrUt-s_xAsTDvklvH-M4KR9TnMWDzTZwxG__lUrCXQgFvOQ3r6wvTL5OdA-AGIuaKlkd7oCsVkMthSUkxC1VTjzDMwnMg&oh=7a1dbeb18ff5e1bb033b2cb78973599f&oe=5B8F562D",
+    				'previewImageUrl' => "https://scontent.furt1-1.fna.fbcdn.net/v/t31.0-8/22829081_903091683188291_6843543102483932368_o.jpg?_nc_cat=0&_nc_eui2=AeHb1OKUTePH4pUIjxrUt-s_xAsTDvklvH-M4KR9TnMWDzTZwxG__lUrCXQgFvOQ3r6wvTL5OdA-AGIuaKlkd7oCsVkMthSUkxC1VTjzDMwnMg&oh=7a1dbeb18ff5e1bb033b2cb78973599f&oe=5B8F562D"
+			];
+			if($text == "3"){
+
+				$messages = [
+				'type' => 'text',
+				'text' => "25.2 องศาเซลเซียส"
 			];
 			}
 			if($text == "รูป"){
@@ -47,14 +63,7 @@ if (!is_null($events['events'])) {
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "อากาศ"){
 				
 				$messages = ['type' => 'text', 'text' => "สถานที่ : " . "``" .  "โรงเรียนวิเชียรมาตุ" . "อุณหภูมิ C :" . $TEM . "\n" . "ความชื้น :" . $HUM . " %" . "\n" . "[help] เพื่อดูเมนู"];
-			}
-			if($text == "2"){
-
-				$messages = [
-				'type' => 'image',
-				'originalContentUrl' => "https://scontent.furt1-1.fna.fbcdn.net/v/t31.0-8/22829081_903091683188291_6843543102483932368_o.jpg?_nc_cat=0&_nc_eui2=AeHb1OKUTePH4pUIjxrUt-s_xAsTDvklvH-M4KR9TnMWDzTZwxG__lUrCXQgFvOQ3r6wvTL5OdA-AGIuaKlkd7oCsVkMthSUkxC1VTjzDMwnMg&oh=7a1dbeb18ff5e1bb033b2cb78973599f&oe=5B8F562D",
-    				'previewImageUrl' => "https://scontent.furt1-1.fna.fbcdn.net/v/t31.0-8/22829081_903091683188291_6843543102483932368_o.jpg?_nc_cat=0&_nc_eui2=AeHb1OKUTePH4pUIjxrUt-s_xAsTDvklvH-M4KR9TnMWDzTZwxG__lUrCXQgFvOQ3r6wvTL5OdA-AGIuaKlkd7oCsVkMthSUkxC1VTjzDMwnMg&oh=7a1dbeb18ff5e1bb033b2cb78973599f&oe=5B8F562D"
-			];
+			
 			}
 			if($text == "ภาพ"){
 
