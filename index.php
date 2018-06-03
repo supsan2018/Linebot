@@ -1,5 +1,5 @@
 <?php
-$access_token = '1fWfUOG3Oc14amsRS3vvPD/vfEt4wLOdMCOEv5BLRheBRWXIC31NknAAI55uoz4BVexS/TJkEJDYIvIGavdWuAzepK6tx4P8J8Uiz9mzRdxQkQEAShZfGPVmJ+3w0H4ncGD5rrtY8u5soHP6dPE8DgdB04t89/1O/w1cDnyilFU=';
+$access_token = '9G7umqWJQG5iSqeGem3E4iYGap1DcuIpV2O6UldOppui5boyKfuoBifVC8lOmcq7w5Ua+oVVloOTlztg9TvZA5wkP2UBe+RmEVK38bdEuzlOjzwbADdMtnkHXQcUzz8N3/WYxwic+ouuIXn4y51SzAdB04t89/1O/w1cDnyilFU=';
 // Get POST body content
 $content = file_get_contents('php://input');
 // Parse JSON
@@ -20,7 +20,7 @@ if (!is_null($events['events'])) {
 			// Build message to reply back
 			$messages = [
 				'type' => 'text',
-				'text' => "กรุณาพิมพ์ตามที่กำหนด"."\n"."[1]เพื่อดูสถานที่ตั้ง"."\n"."[2]เพื่อดูรูปสถานที่"."\n"."[3]เพื่อบอกอุณหภูมิ"
+				'text' => "โปรดกรอกรหัสตามที่กำหนด"."\n"."[0]เพื่อดูแผนที่"."\n"."ตรวจสอบสภาพอากาศ"."\n"."[1]อำเภอเมือง"."\n"."[2]อำเภอนาโยง"."\n"."[3]อำเภอย่านตาขาว"
 					// "text"
 			];
 			if($text == "3"){
