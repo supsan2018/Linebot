@@ -77,7 +77,7 @@ if (!is_null($events['events'])) {
 				$messages = [
 				'type' => 'location',
 				'title'=> 'my location',
-                		'address'=> 'วิเชียรมาตุ',
+                		'address'=> 'อ.เมือง จ.ตรัง',
                 		'latitude'=> 7.564549,
                			 'longitude'=> 99.623965
 			];
