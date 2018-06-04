@@ -52,16 +52,25 @@ if (!is_null($events['events'])) {
     				'previewImageUrl' => "https://www.picz.in.th/images/2018/06/03/zeYd6u.jpg"
 			];
 			}
+			if (ereg_replace('[[:space:]]+', '', trim($text)) == "1"){
+				$messages = [
+				'type' => 'text', 
+				'text' => "สถานที่ : " . "``" .  "โรงเรียนวิเชียรมาตุ" . "อุณหภูมิ C :" . $TEM . "\n" . "ความชื้น :" . $humi . " %" . "\n" . "แสง :". $Light ." lx" . "\n" . "[help] เพื่อดูเมนู"
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP1"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'my location',
+                		'address'=> 'อ.เมือง จ.ตรัง',
+                		'latitude'=> 7.564549,
+               			 'longitude'=> 99.623965
+			];
+			}
 			if($text == "3"){
 				$messages = [
 				'type' => 'text',
 				'text' => "25.2 องศาเซลเซียส"
-			];
-			}
-			if($text == "1"){
-				$messages = [
-				'type' => 'text',
-				'text' => "โรงเรียนวิเชียรมาตุ"
 			];
 			}
 			if($text == "รูป"){
@@ -70,27 +79,13 @@ if (!is_null($events['events'])) {
 				'text' => "http://sand.96.lt/images/q.jpg"
 			];
 			}
-			if (ereg_replace('[[:space:]]+', '', trim($text)) == "อากาศ"){
-				$messages = [
-				'type' => 'text', 
-				'text' => "สถานที่ : " . "``" .  "โรงเรียนวิเชียรมาตุ" . "อุณหภูมิ C :" . $TEM . "\n" . "ความชื้น :" . $humi . " %" . "\n" . "แสง :". $Light ." lx" . "\n" . "[help] เพื่อดูเมนู"
-			];
-			}
 			if($text == "2"){
 				$messages = [
 				'type' => 'image',
 				'originalContentUrl' => "https://scontent.furt1-1.fna.fbcdn.net/v/t31.0-8/22829081_903091683188291_6843543102483932368_o.jpg?_nc_cat=0&_nc_eui2=AeHb1OKUTePH4pUIjxrUt-s_xAsTDvklvH-M4KR9TnMWDzTZwxG__lUrCXQgFvOQ3r6wvTL5OdA-AGIuaKlkd7oCsVkMthSUkxC1VTjzDMwnMg&oh=7a1dbeb18ff5e1bb033b2cb78973599f&oe=5B8F562D",
     				'previewImageUrl' => "https://scontent.furt1-1.fna.fbcdn.net/v/t31.0-8/22829081_903091683188291_6843543102483932368_o.jpg?_nc_cat=0&_nc_eui2=AeHb1OKUTePH4pUIjxrUt-s_xAsTDvklvH-M4KR9TnMWDzTZwxG__lUrCXQgFvOQ3r6wvTL5OdA-AGIuaKlkd7oCsVkMthSUkxC1VTjzDMwnMg&oh=7a1dbeb18ff5e1bb033b2cb78973599f&oe=5B8F562D"
 			];
-			}
-			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP"){
-				$messages = [
-				'type' => 'location',
-				'title'=> 'my location',
-                		'address'=> 'อ.เมือง จ.ตรัง',
-                		'latitude'=> 7.564549,
-               			 'longitude'=> 99.623965
-			];
+			
             		}
 			
 			
