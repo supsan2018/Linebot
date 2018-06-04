@@ -72,8 +72,8 @@ if (!is_null($events['events'])) {
 				'type' => 'location',
 				'title'=> 'my location',
                 		'address'=> 'วิเชียรมาตุ',
-                		'latitude'=> 7.503582,
-               			 'longitude'=> 99.630737
+                		'latitude'=> 7.468379,
+               			 'longitude'=> 99.635794
 			];
             		}
 			
