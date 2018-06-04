@@ -67,7 +67,7 @@ if (!is_null($events['events'])) {
     				'previewImageUrl' => "https://scontent.furt1-1.fna.fbcdn.net/v/t31.0-8/22829081_903091683188291_6843543102483932368_o.jpg?_nc_cat=0&_nc_eui2=AeHb1OKUTePH4pUIjxrUt-s_xAsTDvklvH-M4KR9TnMWDzTZwxG__lUrCXQgFvOQ3r6wvTL5OdA-AGIuaKlkd7oCsVkMthSUkxC1VTjzDMwnMg&oh=7a1dbeb18ff5e1bb033b2cb78973599f&oe=5B8F562D"
 			];
 			}
-			   if($text == "ss"){
+			   if($text == "แผนที่"){
 				$messages = [
 				'type' => 'location',
 				'title'=> 'my location',
