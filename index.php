@@ -1,6 +1,5 @@
 <?php
-$access_token = '1fWfUOG3Oc14amsRS3vvPD/vfEt4wLOdMCOEv5BLRheBRWXIC31NknAAI55uoz4BVexS/TJkEJDYIvIGavdWuAzepK6tx4P8J8Uiz9mzRdxQkQEAShZfGPVmJ+3w0H4ncGD5rrtY8u5soHP6dPE8DgdB04t89/1O/w1cDnyilFU=
-';
+$access_token = '8o+gDuGtu6tBXdAHqgc1lVpZz0b+Lgh4oWOODNFv0itKmBdfaX+PV/BcwApq+3okVexS/TJkEJDYIvIGavdWuAzepK6tx4P8J8Uiz9mzRdybGSv46v+b8c8IIdrtbd4xQ7t5lueLubb75ktqxqiTzAdB04t89/1O/w1cDnyilFU=';
 // Get POST body content
 $content = file_get_contents('php://input');
 // Parse JSON
@@ -67,36 +66,10 @@ if (!is_null($events['events'])) {
 				'originalContentUrl' => "https://scontent.furt1-1.fna.fbcdn.net/v/t31.0-8/22829081_903091683188291_6843543102483932368_o.jpg?_nc_cat=0&_nc_eui2=AeHb1OKUTePH4pUIjxrUt-s_xAsTDvklvH-M4KR9TnMWDzTZwxG__lUrCXQgFvOQ3r6wvTL5OdA-AGIuaKlkd7oCsVkMthSUkxC1VTjzDMwnMg&oh=7a1dbeb18ff5e1bb033b2cb78973599f&oe=5B8F562D",
     				'previewImageUrl' => "https://scontent.furt1-1.fna.fbcdn.net/v/t31.0-8/22829081_903091683188291_6843543102483932368_o.jpg?_nc_cat=0&_nc_eui2=AeHb1OKUTePH4pUIjxrUt-s_xAsTDvklvH-M4KR9TnMWDzTZwxG__lUrCXQgFvOQ3r6wvTL5OdA-AGIuaKlkd7oCsVkMthSUkxC1VTjzDMwnMg&oh=7a1dbeb18ff5e1bb033b2cb78973599f&oe=5B8F562D"
 			];
-            }
-            if($text == "ss"){
-				$messages = [
-				'type' => 'location',
-				"title": "my location",
-                "address": "〒150-0002 東京都渋谷区渋谷２丁目２１−１",
-                "latitude": 35.65910807942215,
-                "longitude": 139.70372892916203
-			];
-            }
-          
-              
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+			}
+			
+			
+			
 			/*if($text == "image"){
 				$messages = [
 				$img_url = "http://sand.96.lt/images/q.jpg";
