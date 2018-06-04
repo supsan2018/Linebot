@@ -7,6 +7,16 @@ $Light = file_get_contents('https://api.thingspeak.com/channels/509782/fields/3/
 $HUM = file_get_contents('https://api.thingspeak.com/channels/509782/fields/2/last.txt');
 $TEM = file_get_contents('https://api.thingspeak.com/channels/509782/fields/1/last.txt');
 $events = json_decode($content, true);
+
+ if ($HUM < 15) {
+        $humi = "`ความชื้นน้อย"  ;;
+    } elseif ( $HUM >= 15  && $HUM < 30) {
+        $humi = "ความชื้นปานกลาง";
+    } else {
+       $humi = "ความชื้นมาก";
+    }
+
+
 // Validate parsed JSON data
 if (!is_null($events['events'])) {
 	// Loop through each event
@@ -63,7 +73,7 @@ if (!is_null($events['events'])) {
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "อากาศ"){
 				$messages = [
 				'type' => 'text', 
-				'text' => "สถานที่ : " . "``" .  "โรงเรียนวิเชียรมาตุ" . "อุณหภูมิ C :" . $TEM . "\n" . "ความชื้น :" . $HUM . " %" . "\n" . "แสง :". $Light ." lx" . "\n" . "[help] เพื่อดูเมนู"
+				'text' => "สถานที่ : " . "``" .  "โรงเรียนวิเชียรมาตุ" . "อุณหภูมิ C :" . $TEM . "\n" . "ความชื้น :" . $humi . " %" . "\n" . "แสง :". $Light ." lx" . "\n" . "[help] เพื่อดูเมนู"
 			];
 			}
 			if($text == "2"){
