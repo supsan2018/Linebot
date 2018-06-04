@@ -23,7 +23,7 @@ if (!is_null($events['events'])) {
 				'text' => "ไม่มีคำสั่งที่คุณพิมพ์ "."\n"."โปรดเลือกรหัสตามที่กำหนด หรือพิมพ์ [help] เพื่อดูเมนู"
 					// "text"
 			];
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "help"){
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "HELP"){
 				$messages = [
 				'type' => 'text',
 				'text' => "โปรดกรอกรหัสตามที่กำหนด"."\n"."[A]เพื่อดูวิธีการใช้คู่มือ"."\n"."[B]เพื่อดูคู่มือการเดินทาง"."\n"."[C]เพื่อดูแผนที่"."\n"."ตรวจสอบสภาพอากาศ"."\n"."[1]อำเภอเมือง"."\n"."[2]อำเภอนาโยง"."\n"."[3]อำเภอย่านตาขาว"
@@ -67,7 +67,7 @@ if (!is_null($events['events'])) {
     				'previewImageUrl' => "https://scontent.furt1-1.fna.fbcdn.net/v/t31.0-8/22829081_903091683188291_6843543102483932368_o.jpg?_nc_cat=0&_nc_eui2=AeHb1OKUTePH4pUIjxrUt-s_xAsTDvklvH-M4KR9TnMWDzTZwxG__lUrCXQgFvOQ3r6wvTL5OdA-AGIuaKlkd7oCsVkMthSUkxC1VTjzDMwnMg&oh=7a1dbeb18ff5e1bb033b2cb78973599f&oe=5B8F562D"
 			];
 			}
-			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "Map"){
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP"){
 				$messages = [
 				'type' => 'location',
 				'title'=> 'my location',
