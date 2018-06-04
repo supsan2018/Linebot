@@ -29,6 +29,12 @@ if (!is_null($events['events'])) {
 				'text' => "โปรดกรอกรหัสตามที่กำหนด"."\n"."[A]เพื่อดูวิธีการใช้คู่มือ"."\n"."[B]เพื่อดูคู่มือการเดินทาง"."\n"."[C]เพื่อดูแผนที่"."\n"."ตรวจสอบสภาพอากาศ"."\n"."[1]อำเภอเมือง"."\n"."[2]อำเภอนาโยง"."\n"."[3]อำเภอย่านตาขาว"
 			];
 			}
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "B"){
+				$messages = [
+				'type' => 'text',
+				'text' => "https://www.facebook.com/Easy-Trips-in-Trang-by-using-Graph-Theory-and-IoT-222676888330387/"
+			];
+			}
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "C"){
 				$messages = [
 				'type' => 'image',
