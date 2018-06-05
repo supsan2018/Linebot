@@ -55,7 +55,7 @@ if (!is_null($events['events'])) {
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "1"){
 				$messages = [
 				'type' => 'text', 
-				'text' => "สถานที่ : " . "``" .  "อำเภอเมือง"."\n"."อุณหภูมิ C :" . $TEM . "\n" . "ความชื้น :" . $humi . "\n" . "แสง :". $Light ." lx" . "\n" . "[help] เพื่อดูเมนู"
+				'text' => "สถานที่ : " . "" .  "อำเภอเมือง"."\n"."อุณหภูมิ C : " . $TEM . "\n" . "ความชื้น : " . $humi . "\n" . "แสง :". $Light ." lx" . "\n" . "[help] เพื่อดูเมนู"
 			];
 			}
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP1"){
