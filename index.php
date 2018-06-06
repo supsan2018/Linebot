@@ -70,8 +70,8 @@ if (!is_null($events['events'])) {
 				'type' => 'location',
 				'title'=> 'อ.เมือง จ.ตรัง',
                 		'address'=> 'อนุสาวรีย์พระยารัษฎานุประดิษฐ์มหิศรภักดี',
-                		'latitude'=> 7.5642826,
-               			 'longitude'=> 99.6220246
+                		'latitude'=> 7.564244,
+               			 'longitude'=> 99.622264
 			];
 			}
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "2MAP1"){
