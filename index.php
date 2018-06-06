@@ -39,6 +39,13 @@ if (!is_null($events['events'])) {
 				'text' => "โปรดกรอกรหัสตามที่กำหนด"."\n"."[A]เพื่อดูวิธีการใช้งาน"."\n"."[B]เพื่อดูคู่มือการเดินทาง"."\n"."[C]เพื่อดูแผนที่"."\n"."ตรวจสอบสภาพอากาศ"."\n"."[1]อำเภอเมือง"."\n"."[2]อำเภอนาโยง"."\n"."[3]อำเภอย่านตาขาว"
 			];
 			}
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "A"){
+				$messages = [
+				'type' => 'image',
+				'originalContentUrl' => "https://www.picz.in.th/image/4WgXyN",
+    				'previewImageUrl' => "https://www.picz.in.th/image/4WgXyN"
+			];
+			}
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "B"){
 				$messages = [
 				'type' => 'text',
