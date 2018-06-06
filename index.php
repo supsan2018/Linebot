@@ -65,6 +65,60 @@ if (!is_null($events['events'])) {
 				'text' => "สถานที่ : " . "" .  "อำเภอเมือง"."\n"."อุณหภูมิ C : " . $TEM . "\n" . "ความชื้น : " . $humi . "\n" . "แสง : ". $Light ." lx" . "\n" . "[help] เพื่อดูเมนู"
 			];
 			}
+			if (ereg_replace('[[:space:]]+', '', trim($text)) == "2"){
+				$messages = [
+				'type' => 'text', 
+				'text' => "สถานที่ : " . "" .  "อำเภอเมือง"."\n"."อุณหภูมิ C : " . $TEM . "\n" . "ความชื้น : " . $humi . "\n" . "แสง : ". $Light ." lx" . "\n" . "[help] เพื่อดูเมนู"
+			];
+			}
+			if (ereg_replace('[[:space:]]+', '', trim($text)) == "3"){
+				$messages = [
+				'type' => 'text', 
+				'text' => "สถานที่ : " . "" .  "อำเภอเมือง"."\n"."อุณหภูมิ C : " . $TEM . "\n" . "ความชื้น : " . $humi . "\n" . "แสง : ". $Light ." lx" . "\n" . "[help] เพื่อดูเมนู"
+			];
+			}
+			if (ereg_replace('[[:space:]]+', '', trim($text)) == "4"){
+				$messages = [
+				'type' => 'text', 
+				'text' => "สถานที่ : " . "" .  "อำเภอเมือง"."\n"."อุณหภูมิ C : " . $TEM . "\n" . "ความชื้น : " . $humi . "\n" . "แสง : ". $Light ." lx" . "\n" . "[help] เพื่อดูเมนู"
+			];
+			}
+			if (ereg_replace('[[:space:]]+', '', trim($text)) == "5"){
+				$messages = [
+				'type' => 'text', 
+				'text' => "สถานที่ : " . "" .  "อำเภอเมือง"."\n"."อุณหภูมิ C : " . $TEM . "\n" . "ความชื้น : " . $humi . "\n" . "แสง : ". $Light ." lx" . "\n" . "[help] เพื่อดูเมนู"
+			];
+			}
+			if (ereg_replace('[[:space:]]+', '', trim($text)) == "6"){
+				$messages = [
+				'type' => 'text', 
+				'text' => "สถานที่ : " . "" .  "อำเภอเมือง"."\n"."อุณหภูมิ C : " . $TEM . "\n" . "ความชื้น : " . $humi . "\n" . "แสง : ". $Light ." lx" . "\n" . "[help] เพื่อดูเมนู"
+			];
+			}
+			if (ereg_replace('[[:space:]]+', '', trim($text)) == "7"){
+				$messages = [
+				'type' => 'text', 
+				'text' => "สถานที่ : " . "" .  "อำเภอเมือง"."\n"."อุณหภูมิ C : " . $TEM . "\n" . "ความชื้น : " . $humi . "\n" . "แสง : ". $Light ." lx" . "\n" . "[help] เพื่อดูเมนู"
+			];
+			}
+			if (ereg_replace('[[:space:]]+', '', trim($text)) == "8"){
+				$messages = [
+				'type' => 'text', 
+				'text' => "สถานที่ : " . "" .  "อำเภอเมือง"."\n"."อุณหภูมิ C : " . $TEM . "\n" . "ความชื้น : " . $humi . "\n" . "แสง : ". $Light ." lx" . "\n" . "[help] เพื่อดูเมนู"
+			];
+			}
+			if (ereg_replace('[[:space:]]+', '', trim($text)) == "9"){
+				$messages = [
+				'type' => 'text', 
+				'text' => "สถานที่ : " . "" .  "อำเภอเมือง"."\n"."อุณหภูมิ C : " . $TEM . "\n" . "ความชื้น : " . $humi . "\n" . "แสง : ". $Light ." lx" . "\n" . "[help] เพื่อดูเมนู"
+			];
+			}
+			if (ereg_replace('[[:space:]]+', '', trim($text)) == "10"){
+				$messages = [
+				'type' => 'text', 
+				'text' => "สถานที่ : " . "" .  "อำเภอเมือง"."\n"."อุณหภูมิ C : " . $TEM . "\n" . "ความชื้น : " . $humi . "\n" . "แสง : ". $Light ." lx" . "\n" . "[help] เพื่อดูเมนู"
+			];
+			}
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "1MAP1"){
 				$messages = [
 				'type' => 'location',
