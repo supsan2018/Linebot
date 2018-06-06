@@ -209,6 +209,51 @@ if (!is_null($events['events'])) {
                			 'longitude'=> 99.694503
 			];
 			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP22"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.นาโยง จ.ตรัง',
+                		'address'=> 'กลุ่มทอผ้านาหมื่นศรี',
+                		'latitude'=> 7.599657,
+               			 'longitude'=> 99.688582
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP23"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.นาโยง จ.ตรัง',
+                		'address'=> 'ถ้ำเขาช้างหาย',
+                		'latitude'=> 7.589745,
+               			 'longitude'=> 99.667212
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP24"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.นาโยง จ.ตรัง',
+                		'address'=> 'น้ำตกกระช่อง',
+                		'latitude'=> 7.548825,
+               			 'longitude'=> 99.786980
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP25"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.นาโยง จ.ตรัง',
+                		'address'=> 'อุทยานนกน้ำคลองลำซาน',
+                		'latitude'=> 7.500198,
+               			 'longitude'=> 99.777386
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP26"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.นาโยง จ.ตรัง',
+                		'address'=> 'น้ําตกไพรสวรรค์',
+                		'latitude'=> 7.412434,
+               			 'longitude'=> 99.826717
+			];
+			}
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP31"){
 				$messages = [
 				'type' => 'location',
