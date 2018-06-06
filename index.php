@@ -59,7 +59,7 @@ if (!is_null($events['events'])) {
     				'previewImageUrl' => "https://www.picz.in.th/images/2018/06/03/zeYd6u.jpg"
 			];
 			}
-			if (ereg_replace('[[:space:]]+', '', trim($text)) == "1,2,3,4,5,6,7,8,9,10"){
+			if (ereg_replace('[[:space:]]+', '', trim($text)) == "1"."2"){
 				$messages = [
 				'type' => 'text', 
 				'text' => "สถานที่ : " . "" .  "อำเภอเมือง"."\n"."อุณหภูมิ C : " . $TEM . "\n" . "ความชื้น : " . $humi . "\n" . "แสง : ". $Light ." lx" . "\n" . "[help] เพื่อดูเมนู"
