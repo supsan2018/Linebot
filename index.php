@@ -42,8 +42,8 @@ if (!is_null($events['events'])) {
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "A"){
 				$messages = [
 				'type' => 'image',
-				'originalContentUrl' => "https://www.picz.in.th/image/4WgXyN",
-    				'previewImageUrl' => "https://www.picz.in.th/image/4WgXyN"
+				'originalContentUrl' => "https://drive.google.com/file/d/1FgHHZ5waR4tqwR3OkDlCQFQVkfXJBnhU/view",
+    				'previewImageUrl' => "https://drive.google.com/file/d/1FgHHZ5waR4tqwR3OkDlCQFQVkfXJBnhU/view"
 			];
 			}
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "B"){
