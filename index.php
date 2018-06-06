@@ -68,8 +68,8 @@ if (!is_null($events['events'])) {
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "1MAP1"){
 				$messages = [
 				'type' => 'location',
-				'title'=> 'my location',
-                		'address'=> 'อ.เมือง จ.ตรัง',
+				'title'=> 'อ.เมือง จ.ตรัง',
+                		'address'=> 'อนุสาวรีย์พระยารัษฎานุประดิษฐ์มหิศรภักดี',
                 		'latitude'=> 7.5642826,
                			 'longitude'=> 99.6220246
 			];
