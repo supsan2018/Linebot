@@ -262,6 +262,42 @@ if (!is_null($events['events'])) {
                 		'latitude'=> 7.468389,
                			 'longitude'=> 99.635796
 			];
+				}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP32"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.ย่านตาขาว จ.ตรัง',
+                		'address'=> 'น้ำตกน้ำเค็ม',
+                		'latitude'=> 7.442214,
+               			 'longitude'=> 99.619308
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP33"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.ย่านตาขาว จ.ตรัง',
+                		'address'=> 'สวนพฤกษศาสตร์ภาคใต้(ทุ่งค่าย)',
+                		'latitude'=> 7.468389,
+               			 'longitude'=> 99.635796
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP34"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.ย่านตาขาว จ.ตรัง',
+                		'address'=> 'สวนพฤกษศาสตร์ภาคใต้(ทุ่งค่าย)',
+                		'latitude'=> 7.468389,
+               			 'longitude'=> 99.635796
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP35"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.ย่านตาขาว จ.ตรัง',
+                		'address'=> 'สวนพฤกษศาสตร์ภาคใต้(ทุ่งค่าย)',
+                		'latitude'=> 7.468389,
+               			 'longitude'=> 99.635796
+			];
 			}
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP41"){
 				$messages = [
