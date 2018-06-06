@@ -78,9 +78,9 @@ if (!is_null($events['events'])) {
 				$messages = [
 				'type' => 'location',
 				'title'=> 'my location',
-                		'address'=> 'อ.เมือง จ.ตรัง',
-                		'latitude'=> 7.564549,
-               			 'longitude'=> 99.623965
+                		'address'=> 'อ.นาโยง จ.ตรัง',
+                		'latitude'=> 7.5576663,
+               			 'longitude'=> 99.6923103
 			];
 			}
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "3MAP1"){
