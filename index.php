@@ -87,72 +87,72 @@ if (!is_null($events['events'])) {
 				$messages = [
 				'type' => 'location',
 				'title'=> 'อ.ย่านตาขาว จ.ตรัง',
-                		'address'=> 'อ.ย่านตาขาว จ.ตรัง',
-                		'latitude'=> 7.564549,
-               			 'longitude'=> 99.623965
+                		'address'=> 'สวนพฤกษศาสตร์ภาคใต้(ทุ่งค่าย)',
+                		'latitude'=> 7.468389,
+               			 'longitude'=> 99.635796
 			];
 			}
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "4MAP1"){
 				$messages = [
 				'type' => 'location',
 				'title'=> 'อ.ปะเหลียน จ.ตรัง',
-                		'address'=> 'อ.ปะเหลียน จ.ตรัง',
-                		'latitude'=> 7.564549,
-               			 'longitude'=> 99.623965
+                		'address'=> 'น้ำตกช่องบรรพต',
+                		'latitude'=> 7.282881,
+               			 'longitude'=> 99.813623
 			];
 			}
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "5MAP1"){
 				$messages = [
 				'type' => 'location',
 				'title'=> 'อ.หาดสำราญ จ.ตรัง',
-                		'address'=> 'อ.เมือง จ.ตรัง',
-                		'latitude'=> 7.564549,
-               			 'longitude'=> 99.623965
+                		'address'=> 'วัดปากปรน',
+                		'latitude'=> 7.266234,
+               			 'longitude'=> 99.545218
 			];
 			}
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "6MAP1"){
 				$messages = [
 				'type' => 'location',
 				'title'=> 'อ.กันตัง จ.ตรัง',
-                		'address'=> 'อ.เมือง จ.ตรัง',
-                		'latitude'=> 7.564549,
-               			 'longitude'=> 99.623965
+                		'address'=> 'บ้านพระยารัษฎานุประดิษฐ์',
+                		'latitude'=> 7.407587,
+               			 'longitude'=> 99.515416
 			];
 			}
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "7MAP1"){
 				$messages = [
 				'type' => 'location',
 				'title'=> 'อ.สิเกา จ.ตรัง',
-                		'address'=> 'อ.เมือง จ.ตรัง',
-                		'latitude'=> 7.564549,
-               			 'longitude'=> 99.623965
+                		'address'=> 'อุทยานแห่งชาติหาดเจ้าไหม',
+                		'latitude'=> 7.412056,
+               			 'longitude'=> 99.345359
 			];
 			}
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "8MAP1"){
 				$messages = [
 				'type' => 'location',
 				'title'=> 'อ.วังวิเศษ จ.ตรัง',
-                		'address'=> 'อ.เมือง จ.ตรัง',
-                		'latitude'=> 7.564549,
-               			 'longitude'=> 99.623965
+                		'address'=> 'วังนกน้ำ',
+                		'latitude'=> 7.643963,
+               			 'longitude'=> 99.481688
 			];
 			}
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "9MAP1"){
 				$messages = [
 				'type' => 'location',
 				'title'=> 'อ.ห้วยยอด จ.ตรัง',
-                		'address'=> 'อ.เมือง จ.ตรัง',
-                		'latitude'=> 7.564549,
-               			 'longitude'=> 99.623965
+                		'address'=> 'เขาน้ำพราย',
+                		'latitude'=> 7.715560,
+               			 'longitude'=> 99.616667
 			];
 			}
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "10MAP1"){
 				$messages = [
 				'type' => 'location',
 				'title'=> 'อ.รัษฎา จ.ตรัง',
-                		'address'=> 'อ.เมือง จ.ตรัง',
-                		'latitude'=> 7.564549,
-               			 'longitude'=> 99.623965
+                		'address'=> 'วัดคลองเขาจันทร์',
+                		'latitude'=> 7.918779,
+               			 'longitude'=> 99.692320
 			];
 			}
 			if($text == "รูป"){
