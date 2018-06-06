@@ -74,19 +74,13 @@ if (!is_null($events['events'])) {
                			 'longitude'=> 99.623965
 			];
 			}
-			if($text == "3"){
-				$messages = [
-				'type' => 'text',
-				'text' => "25.2 องศาเซลเซียส"
-			];
-			}
 			if($text == "รูป"){
 				$messages = [
 				'type' => 'text',
 				'text' => "http://sand.96.lt/images/q.jpg"
 			];
 			}
-			if($text == "2"){
+			if($text == "23548"){
 				$messages = [
 				'type' => 'image',
 				'originalContentUrl' => "https://scontent.furt1-1.fna.fbcdn.net/v/t31.0-8/22829081_903091683188291_6843543102483932368_o.jpg?_nc_cat=0&_nc_eui2=AeHb1OKUTePH4pUIjxrUt-s_xAsTDvklvH-M4KR9TnMWDzTZwxG__lUrCXQgFvOQ3r6wvTL5OdA-AGIuaKlkd7oCsVkMthSUkxC1VTjzDMwnMg&oh=7a1dbeb18ff5e1bb033b2cb78973599f&oe=5B8F562D",
