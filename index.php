@@ -8,12 +8,12 @@ $HUM = file_get_contents('https://api.thingspeak.com/channels/509782/fields/2/la
 $TEM = file_get_contents('https://api.thingspeak.com/channels/509782/fields/1/last.txt');
 $events = json_decode($content, true);
 
- if ($HUM < 15) {
-        $humi = "`ความชื้นน้อย"  ;;
-    } elseif ( $HUM >= 15  && $HUM < 30) {
-        $humi = "ความชื้นปานกลาง";
+ if ($HUM < 55) {
+        $humi = "รู้สึกผิวแห้ง ไม่สบายตัว"  ;;
+    } elseif ( $HUM >= 55  && $HUM < 66) {
+        $humi = "รู้สึกเย็นกำลังสบาย";
     } else {
-       $humi = "ความชื้นมาก";
+       $humi = "รู้สึกร้อนอบอ้าว เหนียวตัว";
     }
 
 
