@@ -7,7 +7,7 @@ $Light = file_get_contents('https://api.thingspeak.com/channels/509782/fields/3/
 $HUM = file_get_contents('https://api.thingspeak.com/channels/509782/fields/2/last.txt');
 $TEM = file_get_contents('https://api.thingspeak.com/channels/509782/fields/1/last.txt');
 $events = json_decode($content, true);
-$n = 0<n<11
+
  if ($HUM < 15) {
         $humi = "`ความชื้นน้อย"  ;;
     } elseif ( $HUM >= 15  && $HUM < 30) {
@@ -59,7 +59,7 @@ if (!is_null($events['events'])) {
     				'previewImageUrl' => "https://www.picz.in.th/images/2018/06/03/zeYd6u.jpg"
 			];
 			}
-			if (ereg_replace('[[:space:]]+', '', trim($text)) == "$n"){
+			if (ereg_replace('[[:space:]]+', '', trim($text)) == "1"){
 				$messages = [
 				'type' => 'text', 
 				'text' => "สถานที่ : " . "" .  "อำเภอเมือง"."\n"."อุณหภูมิ C : " . $TEM . "\n" . "ความชื้น : " . $humi . "\n" . "แสง : ". $Light ." lx" . "\n" . "[help] เพื่อดูเมนู"
