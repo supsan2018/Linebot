@@ -77,10 +77,10 @@ if (!is_null($events['events'])) {
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "2MAP1"){
 				$messages = [
 				'type' => 'location',
-				'title'=> 'my location',
-                		'address'=> 'อ.นาโยง จ.ตรัง',
-                		'latitude'=> 7.5576663,
-               			 'longitude'=> 99.6923103
+				'title'=> 'อ.นาโยง จ.ตรัง',
+                		'address'=> 'วัดปากเหมือง',
+                		'latitude'=> 7.557658,
+               			 'longitude'=> 99.694503
 			];
 			}
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "3MAP1"){
