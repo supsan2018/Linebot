@@ -262,8 +262,17 @@ if (!is_null($events['events'])) {
                 		'latitude'=> 7.468389,
                			 'longitude'=> 99.635796
 			];
-				}
+			}
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP32"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.ย่านตาขาว จ.ตรัง',
+                		'address'=> 'น้ำตกสายรุ้ง',
+                		'latitude'=> 7.440224,
+               			 'longitude'=> 99.814039
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP33"){
 				$messages = [
 				'type' => 'location',
 				'title'=> 'อ.ย่านตาขาว จ.ตรัง',
@@ -272,31 +281,31 @@ if (!is_null($events['events'])) {
                			 'longitude'=> 99.619308
 			];
 			}
-			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP33"){
-				$messages = [
-				'type' => 'location',
-				'title'=> 'อ.ย่านตาขาว จ.ตรัง',
-                		'address'=> 'สวนพฤกษศาสตร์ภาคใต้(ทุ่งค่าย)',
-                		'latitude'=> 7.468389,
-               			 'longitude'=> 99.635796
-			];
-			}
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP34"){
 				$messages = [
 				'type' => 'location',
-				'title'=> 'อ.ย่านตาขาว จ.ตรัง',
-                		'address'=> 'สวนพฤกษศาสตร์ภาคใต้(ทุ่งค่าย)',
-                		'latitude'=> 7.468389,
-               			 'longitude'=> 99.635796
+				'title'=> 'อ.นาโยง จ.ตรัง',
+                		'address'=> 'น้ําตกไพรสวรรค์',
+                		'latitude'=> 7.412434,
+               			 'longitude'=> 99.826717
 			];
 			}
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP35"){
 				$messages = [
 				'type' => 'location',
 				'title'=> 'อ.ย่านตาขาว จ.ตรัง',
-                		'address'=> 'สวนพฤกษศาสตร์ภาคใต้(ทุ่งค่าย)',
-                		'latitude'=> 7.468389,
-               			 'longitude'=> 99.635796
+                		'address'=> 'น้ำตกลำปลอก',
+                		'latitude'=> 7.370002,
+               			 'longitude'=> 99.823304
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP36"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.ย่านตาขาว จ.ตรัง',
+                		'address'=> 'ศาลพระร้อยเก้า',
+                		'latitude'=> 7.375451,
+               			 'longitude'=> 99.675159
 			];
 			}
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP41"){
