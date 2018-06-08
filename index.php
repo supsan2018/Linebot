@@ -55,8 +55,8 @@ if (!is_null($events['events'])) {
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "C"){
 				$messages = [
 				'type' => 'image',
-				'originalContentUrl' => "https://www.picz.in.th/images/2018/06/03/zeYd6u.jpg",
-    				'previewImageUrl' => "https://www.picz.in.th/images/2018/06/03/zeYd6u.jpg"
+				'originalContentUrl' => "https://www.picz.in.th/images/2018/06/08/4z7oub.jpg",
+    				'previewImageUrl' => "https://www.picz.in.th/images/2018/06/08/4z7oub.jpg"
 			];
 			}
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "1"){
