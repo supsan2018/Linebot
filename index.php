@@ -132,36 +132,36 @@ if (!is_null($events['events'])) {
 				$messages = [
 				'type' => 'location',
 				'title'=> 'อ.เมือง จ.ตรัง',
-                		'address'=> 'วงเวียนพะยูน',
-                		'latitude'=> 7.560035,
-               			 'longitude'=> 99.611964
+                		'address'=> 'ศาลเจ้าท่ามกงเยีย',
+                		'latitude'=> 7.566338,
+               			 'longitude'=> 99.615475
 			];
 			}
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP13"){
 				$messages = [
 				'type' => 'location',
 				'title'=> 'อ.เมือง จ.ตรัง',
-                		'address'=> 'จวนผู้ว่าราชการ',
-                		'latitude'=> 7.561319,
-               			 'longitude'=> 99.612805
+                		'address'=> 'พระโพธิสัตว์กวนอิม',
+                		'latitude'=> 7.555249,
+               			 'longitude'=> 99.601392
 			];
 			}
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP14"){
 				$messages = [
 				'type' => 'location',
 				'title'=> 'อ.เมือง จ.ตรัง',
-                		'address'=> 'ศาลเจ้าท่ามกงเยีย',
-                		'latitude'=> 7.566338,
-               			 'longitude'=> 99.615475
+                		'address'=> 'สวนสมเด็จพระศรีนครินทร์',
+                		'latitude'=> 7.571334,
+               			 'longitude'=> 99.598054
 			];
 			}
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP15"){
 				$messages = [
 				'type' => 'location',
 				'title'=> 'อ.เมือง จ.ตรัง',
-                		'address'=> 'อนุสาวรีย์พระยารัษฎานุประดิษฐ์มหิศรภักดี',
-                		'latitude'=> 7.564244,
-               			 'longitude'=> 99.622264
+                		'address'=> 'คริสตจักรตรัง',
+                		'latitude'=> 7.559037,
+               			 'longitude'=> 99.604995
 			];
 			}
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP16"){
@@ -177,27 +177,27 @@ if (!is_null($events['events'])) {
 				$messages = [
 				'type' => 'location',
 				'title'=> 'อ.เมือง จ.ตรัง',
-                		'address'=> 'คริสตจักรตรัง',
-                		'latitude'=> 7.559037,
-               			 'longitude'=> 99.604995
+                		'address'=> 'อนุสาวรีย์พระยารัษฎานุประดิษฐ์มหิศรภักดี',
+                		'latitude'=> 7.564244,
+               			 'longitude'=> 99.622264
 			];
 			}
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP18"){
 				$messages = [
 				'type' => 'location',
 				'title'=> 'อ.เมือง จ.ตรัง',
-                		'address'=> 'พระโพธิสัตว์กวนอิม',
-                		'latitude'=> 7.555249,
-               			 'longitude'=> 99.601392
+                		'address'=> 'จวนผู้ว่าราชการ',
+                		'latitude'=> 7.561319,
+               			 'longitude'=> 99.612805
 			];
 			}
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP19"){
 				$messages = [
 				'type' => 'location',
 				'title'=> 'อ.เมือง จ.ตรัง',
-                		'address'=> 'สวนสมเด็จพระศรีนครินทร์',
-                		'latitude'=> 7.571334,
-               			 'longitude'=> 99.598054
+                		'address'=> 'วงเวียนพะยูน',
+                		'latitude'=> 7.560035,
+               			 'longitude'=> 99.611964
 			];
 			}
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP21"){
