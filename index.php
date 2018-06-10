@@ -257,7 +257,7 @@ if (!is_null($events['events'])) {
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP27"){
 				$messages = [
 				'type' => 'location',
-				'title'=> 'อ.นาโยง จ.ตรัง',
+				'title'=> 'อ.ย่านตาขาว จ.ตรัง',
                 		'address'=> 'น้ําตกไพรสวรรค์',
                 		'latitude'=> 7.412434,
                			 'longitude'=> 99.826717
@@ -302,7 +302,7 @@ if (!is_null($events['events'])) {
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP35"){
 				$messages = [
 				'type' => 'location',
-				'title'=> 'อ.นาโยง จ.ตรัง',
+				'title'=> 'อ.ย่านตาขาว จ.ตรัง',
                 		'address'=> 'น้ําตกไพรสวรรค์',
                 		'latitude'=> 7.412434,
                			 'longitude'=> 99.826717
@@ -392,19 +392,99 @@ if (!is_null($events['events'])) {
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP51"){
 				$messages = [
 				'type' => 'location',
+				'title'=> 'อ.เมือง จ.ตรัง',
+                		'address'=> 'วงเวียนหอนาฬิกา',
+                		'latitude'=> 7.556767,
+               			 'longitude'=> 99.609895
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP52"){
+				$messages = [
+				'type' => 'location',
 				'title'=> 'อ.หาดสำราญ จ.ตรัง',
                 		'address'=> 'วัดปากปรน',
                 		'latitude'=> 7.266234,
                			 'longitude'=> 99.545218
 			];
 			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP53"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.หาดสำราญ จ.ตรัง',
+                		'address'=> 'ท่าเรือปากปรน',
+                		'latitude'=> 7.270704,
+               			 'longitude'=> 99.538346
+			];
+			}
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP61"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.เมือง จ.ตรัง',
+                		'address'=> 'วงเวียนหอนาฬิกา',
+                		'latitude'=> 7.556767,
+               			 'longitude'=> 99.609895
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP62"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.กันตัง จ.ตรัง',
+                		'address'=> 'วนอุทยานน้ำพุร้อนควนแดง',
+                		'latitude'=> 7.409409,
+               			 'longitude'=> 99.463213
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP63"){
 				$messages = [
 				'type' => 'location',
 				'title'=> 'อ.กันตัง จ.ตรัง',
                 		'address'=> 'บ้านพระยารัษฎานุประดิษฐ์',
                 		'latitude'=> 7.407587,
                			 'longitude'=> 99.515416
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP64"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.กันตัง จ.ตรัง',
+                		'address'=> 'ต้นยางพาราต้นแรก',
+                		'latitude'=> 7.409590,
+               			 'longitude'=> 99.522842
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP65"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.กันตัง จ.ตรัง',
+                		'address'=> 'หาดยาว',
+                		'latitude'=> 7.309508,
+               			 'longitude'=> 99.394908
+			];}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP66"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.กันตัง จ.ตรัง',
+                		'address'=> 'หาดหยงหลิง',
+                		'latitude'=> 7.340928,
+               			 'longitude'=> 99.373399
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP67"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.กันตัง จ.ตรัง',
+                		'address'=> 'สถานีรถไฟ',
+                		'latitude'=> 7.410813,
+               			 'longitude'=> 99.514646
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP68"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.กันตัง จ.ตรัง',
+                		'address'=> 'ควนตําหนักจันทน์',
+                		'latitude'=> 7.405329,
+               			 'longitude'=> 99.520313
 			];
 			}
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP71"){
