@@ -30,7 +30,7 @@ if (!is_null($events['events'])) {
 			// Build message to reply back
 			$messages = [
 				'type' => 'text',
-				'text' => "ไม่มีคำสั่งที่คุณพิมพ์ "."\n"."โปรดกรอกรหัสตามที่กำหนด หรือพิมพ์ [help] เพื่อดูเมนู"
+				'text' => "ไม่มีคำสั่งที่คุณพิมพ์ "."\n"."กรุณากรอกรหัสตามที่กำหนด หรือพิมพ์ [help] เพื่อดูเมนู"
 					// "text"
 			];
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "HELP"){
