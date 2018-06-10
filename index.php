@@ -203,19 +203,19 @@ if (!is_null($events['events'])) {
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP21"){
 				$messages = [
 				'type' => 'location',
-				'title'=> 'อ.นาโยง จ.ตรัง',
-                		'address'=> 'วัดปากเหมือง',
-                		'latitude'=> 7.557658,
-               			 'longitude'=> 99.694503
+				'title'=> 'อ.เมือง จ.ตรัง',
+                		'address'=> 'วงเวียนหอนาฬิกา',
+                		'latitude'=> 7.556767,
+               			 'longitude'=> 99.609895
 			];
 			}
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP22"){
 				$messages = [
 				'type' => 'location',
 				'title'=> 'อ.นาโยง จ.ตรัง',
-                		'address'=> 'กลุ่มทอผ้านาหมื่นศรี',
-                		'latitude'=> 7.599657,
-               			 'longitude'=> 99.688582
+                		'address'=> 'น้ำตกกระช่อง',
+                		'latitude'=> 7.548825,
+               			 'longitude'=> 99.786980
 			];
 			}
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP23"){
@@ -231,21 +231,30 @@ if (!is_null($events['events'])) {
 				$messages = [
 				'type' => 'location',
 				'title'=> 'อ.นาโยง จ.ตรัง',
-                		'address'=> 'น้ำตกกระช่อง',
-                		'latitude'=> 7.548825,
-               			 'longitude'=> 99.786980
+                		'address'=> 'อุทยานนกน้ำคลองลำซาน',
+                		'latitude'=> 7.500198,
+               			 'longitude'=> 99.777386
 			];
 			}
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP25"){
 				$messages = [
 				'type' => 'location',
 				'title'=> 'อ.นาโยง จ.ตรัง',
-                		'address'=> 'อุทยานนกน้ำคลองลำซาน',
-                		'latitude'=> 7.500198,
-               			 'longitude'=> 99.777386
+                		'address'=> 'กลุ่มทอผ้านาหมื่นศรี',
+                		'latitude'=> 7.599657,
+               			 'longitude'=> 99.688582
 			];
 			}
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP26"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.นาโยง จ.ตรัง',
+                		'address'=> 'วัดปากเหมือง',
+                		'latitude'=> 7.557658,
+               			 'longitude'=> 99.694503
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP27"){
 				$messages = [
 				'type' => 'location',
 				'title'=> 'อ.นาโยง จ.ตรัง',
@@ -257,13 +266,22 @@ if (!is_null($events['events'])) {
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP31"){
 				$messages = [
 				'type' => 'location',
+				'title'=> 'อ.เมือง จ.ตรัง',
+                		'address'=> 'วงเวียนหอนาฬิกา',
+                		'latitude'=> 7.556767,
+               			 'longitude'=> 99.609895
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP32"){
+				$messages = [
+				'type' => 'location',
 				'title'=> 'อ.ย่านตาขาว จ.ตรัง',
                 		'address'=> 'สวนพฤกษศาสตร์ภาคใต้(ทุ่งค่าย)',
                 		'latitude'=> 7.468389,
                			 'longitude'=> 99.635796
 			];
 			}
-			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP32"){
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP33"){
 				$messages = [
 				'type' => 'location',
 				'title'=> 'อ.ย่านตาขาว จ.ตรัง',
@@ -272,7 +290,7 @@ if (!is_null($events['events'])) {
                			 'longitude'=> 99.814039
 			];
 			}
-			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP33"){
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP34"){
 				$messages = [
 				'type' => 'location',
 				'title'=> 'อ.ย่านตาขาว จ.ตรัง',
@@ -281,7 +299,7 @@ if (!is_null($events['events'])) {
                			 'longitude'=> 99.619308
 			];
 			}
-			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP34"){
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP35"){
 				$messages = [
 				'type' => 'location',
 				'title'=> 'อ.นาโยง จ.ตรัง',
@@ -290,7 +308,7 @@ if (!is_null($events['events'])) {
                			 'longitude'=> 99.826717
 			];
 			}
-			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP35"){
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP36"){
 				$messages = [
 				'type' => 'location',
 				'title'=> 'อ.ย่านตาขาว จ.ตรัง',
@@ -299,7 +317,7 @@ if (!is_null($events['events'])) {
                			 'longitude'=> 99.823304
 			];
 			}
-			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP36"){
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP37"){
 				$messages = [
 				'type' => 'location',
 				'title'=> 'อ.ย่านตาขาว จ.ตรัง',
@@ -309,6 +327,24 @@ if (!is_null($events['events'])) {
 			];
 			}
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP41"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.เมือง จ.ตรัง',
+                		'address'=> 'วงเวียนหอนาฬิกา',
+                		'latitude'=> 7.556767,
+               			 'longitude'=> 99.609895
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP42"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.ปะเหลียน จ.ตรัง',
+                		'address'=> 'น้ำตกโตนเต๊ะ',
+                		'latitude'=> 7.2944939,
+               			 'longitude'=> 99.8833453
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP44"){
 				$messages = [
 				'type' => 'location',
 				'title'=> 'อ.ปะเหลียน จ.ตรัง',
