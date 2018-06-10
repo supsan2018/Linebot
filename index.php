@@ -30,7 +30,7 @@ if (!is_null($events['events'])) {
 			// Build message to reply back
 			$messages = [
 				'type' => 'text',
-				'text' => "ไม่มีคำสั่งที่คุณพิมพ์ "."\n"."โปรดเลือกรหัสตามที่กำหนด หรือพิมพ์ [help] เพื่อดูเมนู"
+				'text' => "ไม่มีคำสั่งที่คุณพิมพ์ "."\n"."โปรดกรอกรหัสตามที่กำหนด หรือพิมพ์ [help] เพื่อดูเมนู"
 					// "text"
 			];
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "HELP"){
@@ -490,10 +490,55 @@ if (!is_null($events['events'])) {
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP71"){
 				$messages = [
 				'type' => 'location',
+				'title'=> 'อ.เมือง จ.ตรัง',
+                		'address'=> 'วงเวียนหอนาฬิกา',
+                		'latitude'=> 7.556767,
+               			 'longitude'=> 99.609895
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP72"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.สิเกา จ.ตรัง',
+                		'address'=> 'หาดปากเมง',
+                		'latitude'=> 7.490606,
+               			 'longitude'=> 99.329417
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP73"){
+				$messages = [
+				'type' => 'location',
 				'title'=> 'อ.สิเกา จ.ตรัง',
                 		'address'=> 'อุทยานแห่งชาติหาดเจ้าไหม',
                 		'latitude'=> 7.412056,
                			 'longitude'=> 99.345359
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP74"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.สิเกา จ.ตรัง',
+                		'address'=> 'พิพิธภัณฑ์สัตว์น้ำราชมงคล',
+                		'latitude'=> 7.529688,
+               			 'longitude'=> 99.309753
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP75"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.สิเกา จ.ตรัง',
+                		'address'=> 'หาดราชมงคล',
+                		'latitude'=> 7.528221,
+               			 'longitude'=> 99.307916
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP76"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.สิเกา จ.ตรัง',
+                		'address'=> 'วัดเขาไม้แก้ว',
+                		'latitude'=> 7.638053,
+               			 'longitude'=> 99.321923
 			];
 			}
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP81"){
