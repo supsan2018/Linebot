@@ -661,6 +661,33 @@ if (!is_null($events['events'])) {
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP101"){
 				$messages = [
 				'type' => 'location',
+				'title'=> 'อ.เมือง จ.ตรัง',
+                		'address'=> 'วงเวียนหอนาฬิกา',
+                		'latitude'=> 7.556767,
+               			 'longitude'=> 99.609895
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP102"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.รัษฎา จ.ตรัง',
+                		'address'=> 'วัดถํ้าพระพุทธ',
+                		'latitude'=> 7.966571,
+               			 'longitude'=> 99.744980
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP103"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.รัษฎา จ.ตรัง',
+                		'address'=> 'ถ้ำพระยาพิชัยสงคราม',
+                		'latitude'=> 8.007172,
+               			 'longitude'=> 99.751283
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP104"){
+				$messages = [
+				'type' => 'location',
 				'title'=> 'อ.รัษฎา จ.ตรัง',
                 		'address'=> 'วัดคลองเขาจันทร์',
                 		'latitude'=> 7.918779,
