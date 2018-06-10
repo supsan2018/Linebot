@@ -589,10 +589,73 @@ if (!is_null($events['events'])) {
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP91"){
 				$messages = [
 				'type' => 'location',
+				'title'=> 'อ.เมือง จ.ตรัง',
+                		'address'=> 'วงเวียนหอนาฬิกา',
+                		'latitude'=> 7.556767,
+               			 'longitude'=> 99.609895
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP92"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.ห้วยยอด จ.ตรัง',
+                		'address'=> 'ถ้ำเลเขากอบ',
+                		'latitude'=> 7.794298,
+               			 'longitude'=> 99.572331
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP93"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.ห้วยยอด จ.ตรัง',
+                		'address'=> 'เขาหัวแตก',
+                		'latitude'=> 7.800276,
+               			 'longitude'=> 99.580905
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP94"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.ห้วยยอด จ.ตรัง',
+                		'address'=> 'วังเทพทาโร',
+                		'latitude'=> 7.806683,
+               			 'longitude'=> 99.571657
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP95"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.ห้วยยอด จ.ตรัง',
+                		'address'=> 'ศูนย์ศิลปะวิถี',
+                		'latitude'=> 7.715549,
+               			 'longitude'=> 99.664868
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP96"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.ห้วยยอด จ.ตรัง',
+                		'address'=> 'น้ำตกปากแจ่ม',
+                		'latitude'=> 7.748637,
+               			 'longitude'=> 99.695031
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP97"){
+				$messages = [
+				'type' => 'location',
 				'title'=> 'อ.ห้วยยอด จ.ตรัง',
                 		'address'=> 'เขาน้ำพราย',
                 		'latitude'=> 7.715560,
                			 'longitude'=> 99.616667
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP98"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.ห้วยยอด จ.ตรัง',
+                		'address'=> 'ถ้ำเขาปินะ',
+                		'latitude'=> 7.749365,
+               			 'longitude'=> 99.527385
 			];
 			}
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP101"){
