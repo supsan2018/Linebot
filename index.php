@@ -544,10 +544,46 @@ if (!is_null($events['events'])) {
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP81"){
 				$messages = [
 				'type' => 'location',
+				'title'=> 'อ.เมือง จ.ตรัง',
+                		'address'=> 'วงเวียนหอนาฬิกา',
+                		'latitude'=> 7.556767,
+               			 'longitude'=> 99.609895
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP82"){
+				$messages = [
+				'type' => 'location',
 				'title'=> 'อ.วังวิเศษ จ.ตรัง',
-                		'address'=> 'วังนกน้ำ',
+                		'address'=> 'วังผาเมฆ',
+                		'latitude'=> 7.650992,
+               			 'longitude'=> 99.363781
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP83"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.วังวิเศษ จ.ตรัง',
+                		'address'=> 'สวนสาธารณะวังนกน้ำ',
                 		'latitude'=> 7.643963,
                			 'longitude'=> 99.481688
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP84"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.วังวิเศษ จ.ตรัง',
+                		'address'=> 'น้ําตกร้อยชั้นพันวัง',
+                		'latitude'=> 7.895146,
+               			 'longitude'=> 99.317788
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP85"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.วังวิเศษ จ.ตรัง',
+                		'address'=> 'วัดราษฎร์รังสรรค์',
+                		'latitude'=> 7.747697,
+               			 'longitude'=> 99.389275
 			];
 			}
 			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP91"){
