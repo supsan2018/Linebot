@@ -692,6 +692,33 @@ if (!is_null($events['events'])) {
                			 'longitude'=> 99.692320
 			];
 			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP101"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.รัษฎา จ.ตรัง',
+                		'address'=> 'วัดคลองเขาจันทร์',
+                		'latitude'=> 7.918779,
+               			 'longitude'=> 99.692320
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP111"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.เมือง จ.ตรัง',
+                		'address'=> 'ร้านแกงส้ม',
+                		'latitude'=> 7.559810,
+               			 'longitude'=> 99.607043
+			];
+			}
+			   if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "MAP122"){
+				$messages = [
+				'type' => 'location',
+				'title'=> 'อ.เมือง จ.ตรัง',
+                		'address'=> 'เค้กรสเลิศ',
+                		'latitude'=> 7.555034,
+               			 'longitude'=> 99.604646
+			];
+			}
 			if($text == "รูป"){
 				$messages = [
 				'type' => 'text',
