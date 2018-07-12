@@ -7,7 +7,7 @@ $Light = file_get_contents('https://api.thingspeak.com/channels/509782/fields/3/
 $HUM = file_get_contents('https://api.thingspeak.com/channels/509782/fields/2/last.txt');
 $TEM = file_get_contents('https://api.thingspeak.com/channels/509782/fields/1/last.txt');
 $events = json_decode($content, true);
-$NUM = 80-99
+$NUM = 80-99;
 
  if ($HUM < 55) {
         $humi = "รู้สึกผิวแห้ง ไม่สบายตัว"  ;;
@@ -53,7 +53,7 @@ if (!is_null($events['events'])) {
 				'text' => "https://www.facebook.com/Easy-Trips-in-Trang-by-using-Graph-Theory-and-IoT-222676888330387/"
 			];
 			}
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "$NUM"){
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == $NUM){
 				$messages = [
 				'type' => 'text',
 				'text' => "ใช้งานได้"
