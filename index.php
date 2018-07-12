@@ -53,7 +53,7 @@ if (!is_null($events['events'])) {
 				'text' => "https://www.facebook.com/Easy-Trips-in-Trang-by-using-Graph-Theory-and-IoT-222676888330387/"
 			];
 			}
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == $NUM){
+			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "$NUM"){
 				$messages = [
 				'type' => 'text',
 				'text' => "ใช้งานได้"
