@@ -7,15 +7,6 @@ $Light = file_get_contents('https://api.thingspeak.com/channels/509782/fields/3/
 $HUM = file_get_contents('https://api.thingspeak.com/channels/509782/fields/2/last.txt');
 $TEM = file_get_contents('https://api.thingspeak.com/channels/509782/fields/1/last.txt');
 $events = json_decode($content, true);
-$NUM = file_get_contents('$NUM >= 0  && $NUM < 101');
-
-if ($NUM < 55) {
-        $PO = "20 บาท"  ;;
-    } elseif ( $HUM >= 55  && $HUM < 66) {
-        $PO = "30 บาท";
-    } else {
-       $PO = "40 บาท";
-    }
 
  if ($HUM < 55) {
         $humi = "รู้สึกผิวแห้ง ไม่สบายตัว"  ;;
@@ -48,11 +39,11 @@ if (!is_null($events['events'])) {
 				'text' => "โปรดกรอกรหัสตามที่กำหนด"."\n"."[A]เพื่อดูวิธีการใช้งาน"."\n"."[B]เพื่อดูคู่มือการเดินทาง"."\n"."[C]เพื่อดูแผนที่"."\n"."[D]เพื่อดูตารางการเดินทาง"."\n"."ตรวจสอบสภาพอากาศ"."\n"."[1]อำเภอเมือง"."\n"."[2]อำเภอนาโยง"."\n"."[3]อำเภอย่านตาขาว"."\n"."[4]อำเภอปะเหลียน"."\n"."[5]อำเภอหาดสำราญ"."\n"."[6]อำเภอกันตัง"."\n"."[7]อำเภอสิเกา"."\n"."[8]อำเภอวังวิเศษ"."\n"."[9]อำเภอห้วยยอด"."\n"."[10]อำเภอรัษฎา"
 			];
 			}
-			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == '$NUM'){
-				$messages = [
-				'type' => 'text',
-				'text' => $PO
-			];
+			//if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == '$NUM'){
+				//$messages = [
+				//'type' => 'text',
+				//'text' => $PO
+			//];
 			}
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "A"){
 				$messages = [
