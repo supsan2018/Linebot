@@ -7,7 +7,7 @@ $Light = file_get_contents('https://api.thingspeak.com/channels/509782/fields/3/
 $HUM = file_get_contents('https://api.thingspeak.com/channels/509782/fields/2/last.txt');
 $TEM = file_get_contents('https://api.thingspeak.com/channels/509782/fields/1/last.txt');
 $events = json_decode($content, true);
-$NUM = file_get_contents(1-100);
+$NUM = file_get_contents('1-100');
 
 if ($NUM < 55) {
         $PO = "20 บาท"  ;;
