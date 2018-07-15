@@ -6,8 +6,7 @@ $content = file_get_contents('php://input');
 $Light = file_get_contents('https://api.thingspeak.com/channels/509782/fields/3/last.txt');
 $HUM = file_get_contents('https://api.thingspeak.com/channels/509782/fields/2/last.txt');
 $TEM = file_get_contents('https://api.thingspeak.com/channels/509782/fields/1/last.txt');
-$events = json_decode($content, true)
-
+$events = json_decode($content, true);
  if ($HUM < 55) {
         $humi = "รู้สึกผิวแห้ง ไม่สบายตัว"  ;;
     } elseif ( $HUM >= 55  && $HUM < 66) {
@@ -15,7 +14,6 @@ $events = json_decode($content, true)
     } else {
        $humi = "รู้สึกร้อนอบอ้าว เหนียวตัว";
     }
-
 // Validate parsed JSON data
 if (!is_null($events['events'])) {
 	// Loop through each event
