@@ -49,7 +49,7 @@ if (!is_null($events['events'])) {
 			if (ereg_replace('[[:space:]]+', '', trim($text)) == "$NUM"){
 				$messages = [
 				'type' => 'text', 
-				'text' => "ราคา : " . num . "บาท"
+				'text' => "ราคา : " . $NUM . "บาท"
 			];
 			}
 			if (ereg_replace('[[:space:]]+', '', strtoupper($text)) == "A"){
