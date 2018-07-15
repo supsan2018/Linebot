@@ -7,13 +7,6 @@ $Light = file_get_contents('https://api.thingspeak.com/channels/509782/fields/3/
 $HUM = file_get_contents('https://api.thingspeak.com/channels/509782/fields/2/last.txt');
 $TEM = file_get_contents('https://api.thingspeak.com/channels/509782/fields/1/last.txt');
 $events = json_decode($content, true)
-	
-if($num<=20){
-echo a
-}
-if($num>=21&& $num<=40){
-echo b
-}
 
  if ($HUM < 55) {
         $humi = "รู้สึกผิวแห้ง ไม่สบายตัว"  ;;
